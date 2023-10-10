@@ -4,7 +4,7 @@ const htmlRoutes = require("./routes/htmlRoutes");
 
 // Initialize the app and create a port. we write process.env.PORT || 4141 so that the port will be set by Heroku when deployed, but will default to 4141 when run locally.
 const app = express();
-const PORT = process.env.PORT || 4141;
+const PORT = process.env.PORT || 3001;
 
 // Set up the appropriate middleware. Specifically for parsing JSON data, "urlencoded" data, and for serving static files.
 app.use(express.json());
