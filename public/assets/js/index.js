@@ -112,7 +112,7 @@ const handleNewNoteView = (e) => {
   activeNote = {};
   renderActiveNote();
   hide(clearNoteBtn);
-  show(newNoteBtn);
+  hide(newNoteBtn);
 };
 
 // Code to handle whether the save button or clear button should be displayed
