@@ -77,6 +77,7 @@ const handleNoteSave = () => {
     getAndRenderNotes();
     renderActiveNote();
     hide(clearNoteBtn);
+    show(newNoteBtn);
   });
 };
 
@@ -115,7 +116,7 @@ const handleNewNoteView = (e) => {
 };
 
 const handleRenderClearBtn = () => {
-  if (noteTitle.value.trim() === '' || noteText.value.trim() === '' || noteTitle.hasAttribute('readonly')) {
+  if (noteTitle.value.trim() === "" || noteText.value.trim() === "" || noteTitle.hasAttribute('readonly')) {
     hide(clearNoteBtn);
   } else {
     show(clearNoteBtn);

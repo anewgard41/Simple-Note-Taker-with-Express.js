@@ -12,6 +12,12 @@ body {
 .clear-note {
   display: none;
   color: red;
+  border: red 2px solid;
+}
+
+.clear-note:hover {
+  background-color: red;
+  color: white;
 }
 
 .icons i {
