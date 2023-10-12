@@ -2,7 +2,10 @@
 
 Take notes effortlessly! Never forget to pay rent again! Write, store, and delete notes using the power of express.js. 
 
-Here is a link to the application: 
+Here is a link to the deployed application: https://dashboard.heroku.com/apps/whispering-journey-91261
+
+And here's a gif demonstrating the functionality of the note taker. 
+![Demo GIF of the Note Taker](/images/noteTakerWithExpress.gif)
 
 ## Description 
 
@@ -13,4 +16,10 @@ The application uses GET, POST, and DELETE api requests in order to read, update
 The application stores notes with unique ids in a JSON file. 
 
 Finally, the application was deployed on Heroku for easy access. 
+
+## Credits
+
+Thanks to everyone at AskBCS for their constant support, to our student success manager Chavon, and to our instructor Kai Chen! 
+
+Thanks for reading. Enjoy! 
 

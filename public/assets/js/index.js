@@ -115,6 +115,7 @@ const handleNewNoteView = (e) => {
   show(newNoteBtn);
 };
 
+// Code to handle whether the save button or clear button should be displayed
 const handleRenderClearBtn = () => {
   if (noteTitle.value.trim() === "" || noteText.value.trim() === "" || noteTitle.hasAttribute('readonly')) {
     hide(clearNoteBtn);
